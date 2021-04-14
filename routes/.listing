@@ -1,0 +1,7 @@
+drwx------    2 28373176   28373176         4096 Apr 12 06:30 .
+drwxr-xr-x    7 28373176   28373176         4096 Apr 14 09:04 ..
+-rwx------    1 28373176   28373176          237 Apr 11 23:17 logout.php
+-rwx------    1 28373176   28373176          599 Apr 12 03:56 proseslogin.php
+-rwx------    1 28373176   28373176          844 Apr 12 09:34 prosesregist.php
+-rwx------    1 28373176   28373176          538 Apr 11 19:56 prosestambah.php
+-rwx------    1 28373176   28373176          623 Apr 12 03:57 prosesupdate.php
