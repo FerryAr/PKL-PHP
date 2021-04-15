@@ -38,10 +38,10 @@ if($_SESSION['username'] == 'admin') {
 ?>
                         </tr>
                         <?php
-                        include("../app/koneksi.php");
+                        include("../app/koneksi2.php");
                         $no = 1;
-                        $data = mysqli_query($koneksi, "SELECT * FROM biodata");
-                        while ($d = mysqli_fetch_array($data)) {
+                        $data = $conn->query("SELECT * FROM biodata");
+                        while ($d = $data->fetch_array()) {
                         ?>
                         <tr>
                             <td><?php echo $no++; ?></td>
@@ -62,7 +62,7 @@ if($_SESSION['username'] == 'admin') {
                         ?>
                     </table>
 <?php
-                        $jumlah=mysqli_num_rows($data);
+                        $jumlah = $data->num_rows;
 ?>
                 <p><?php echo "Jumlah Data : " . $jumlah ?></p>
                 </div>
