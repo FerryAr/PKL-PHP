@@ -30,6 +30,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#!about">Tentang Saya</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="formulir.php">Form Data Siswa</a>
+                    </li>
 <?php
 session_start();
 if(isset($_SESSION['username'])) {
