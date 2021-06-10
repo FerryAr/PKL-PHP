@@ -7,7 +7,7 @@ if(isset($_SESSION['username']) == 'admin') {
     <head>
         <meta charset="UTF-8"/>
         <meta content="width=device-width, initial-scale=1" name="viewport"/>
-        <title>Tambah Data</title>
+        <title>Edit Data</title>
         <link rel="stylesheet" href="../assets/css/bootstrap.min.css"/>
     </head>
     <body>
