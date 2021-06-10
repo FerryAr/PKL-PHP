@@ -7,11 +7,11 @@
 
         $q = $conn->query("INSERT INTO biodata VALUES (null, '$nama', '$alamat', '$usia')");
         if ($q) {
-            echo "<script>alert('Data berhasil ditambahkan!'); window.location.href='../admin/index.php'</script>";
+            echo "<script>alert('Data berhasil ditambahkan!'); window.location.href='../crud/index.php'</script>";
         } else {
             echo "$conn->error";
         }
     } else {
-        header("Location: ../admin/index.php");
+        header("Location: ../crud/index.php");
     }
 ?>
