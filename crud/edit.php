@@ -26,7 +26,7 @@ if (isset($_GET['id'])) {
 
     foreach($q as $dt) :
 ?>
-                            <form method="POST" action="prosesupdate.php">
+                            <form method="POST" action="../routes/prosesupdate.php">
                                 <div class="form-group">
                                     <input type="hidden" name="id" value="<?php echo $dt['id']; ?>"
                                     <label for="nama">Nama</label>
